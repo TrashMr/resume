@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="description" content="Это сайт резюме Смотрова Дмитрия">
+    <title>Dima resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="info">
+        <img src="Avatar.webp" alt="Смотров Дмитрий" class="avatar" >
+
+        <div class="info-text">
+    <h1>Смотров Дмитрий</h1>  
+    <p>Я <strong>очень сильно</strong> хочу сменить свою текущую работу</p>
+    <p>У меня очень <em>мало свободного времени</em> для обучения, но я <strong><em>обязательно справлюсь!</em></strong></p>
+
+    <h4>Список социальных сетей:</h4>
+
+    <a href="" target="_blank">Instagram</a>
+    |
+    <a href="" target="_blank">VK</a>
+    |
+    <a href="" target="_blank">Telegram</a>
+    </div>
+    </div>
+
+        <div class="card bg-green">
+        <h2>Мои увлечения</h2>
+
+        <ol class="list">
+            <li>Спорт</li>
+            <li>Путешествия</li>
+            <li>Еда</li>
+            <li>Ла Ла Ла</li>
+            
+        </ol>
+        </div>
+
+            <div class="card bg-red">
+        <h2>Опыт работы</h2>
+
+        <table class="table">
+            <!--thead>
+                <tr>
+                    <th>Название работы</th>
+                    <th>Должность</th>
+                    <th>год</th>
+                </tr>
+            </thead>-->
+            <tbody>
+                <tr>
+                    <td>Рикет бенкизи</td>
+                    <td>Торговый представитель</td>
+                    <td>2012-2013</td>
+                </tr>
+                <tr>
+                    <td>Вертикаль</td>
+                    <td>Супервайзер</td>
+                    <td>2014-2017</td>
+                </tr>
+                <tr>
+                    <td>ИП</td>
+                    <td>Руководитель</td>
+                    <td>2017-2022</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+            <div class="card bg-yellow">
+        
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name"
+                    placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email"
+                    placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="massage">Ваше сообщение:</label>
+                <textarea id="massage" cols="20" rows="5" 
+                placeholder="Введите сообщение..."></textarea>
+            </div>
+            <input class="btn"   type="submit" value="Отправить">
+        </form>
+    </div>
+</div>
+</body>
+</html>
